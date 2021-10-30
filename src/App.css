@@ -1,0 +1,76 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.imageBgBox {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.head-text {
+    position: relative;
+}
+
+.text-on-image {
+    position: absolute;
+    color: white;
+    padding-left: 10px;
+    top: 50px;
+}
+.text-on-image2 {
+    position: absolute;
+    color: white;
+    padding-left: 10px;
+    top: 50px;
+}
+#button-on-image{
+  position: absolute;
+  color: white;
+    top: 50px;
+  right: 1%;
+}
+
+#padl5.btn {
+    margin:5px;
+}
+
+.containerX{
+    position: fixed;
+    left: 30%;
+}
+
+.formContainer {
+    text-align: left;
+}
+
+.formButtons{
+    position: fixed;
+    left: 53%;
+}
+
+.test{
+    display: block;
+    width: 100%;
+    resize: both;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 600px;
+    overflow: auto;
+}
+
+td{
+    width: 200px;
+}
